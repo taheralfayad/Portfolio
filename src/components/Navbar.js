@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between p-6 bg-gray-900">
+    <nav className="fixed w-full top-0 flex items-center justify-between p-6 bg-gray-900 z-10">
         <div className="text-white text-xl font-poppins">
             <h1 className="text-4xl flicker-effect">Ahmad Altaher Alfayad</h1>
         </div>
@@ -19,7 +19,7 @@ export default function Navbar() {
                 </button>
             </div>
             <CSSTransition in={isOpen} timeout={200} classNames="my-node">
-                <ul className={`absolute top-16 right-0 bg-gray-900 text-white flex flex-col space-y-2 py-2 px-4 rounded ${isOpen ? 'block' : 'hidden'} lg:static lg:flex lg:flex-row lg:space-x-4 lg:space-y-0 lg:bg-transparent lg:rounded-none`}>
+                <ul className={`transform translate-y-2 overflow-hidden origin-top-right transition-all duration-200 ease-in-out bg-gray-900 text-white flex flex-col space-y-2 py-2 px-4 rounded ${isOpen ? 'block' : 'hidden'} lg:static lg:flex lg:flex-row lg:space-x-4 lg:space-y-0 lg:bg-transparent lg:rounded-none lg:transform-none`}>
                     <li className="text-white cursor-pointer" onClick={() => setIsOpen(false)}><p className="font-poppins">Home</p></li>
                     <li className="text-white cursor-pointer font-poppins" onClick={() => setIsOpen(false)}>About</li>
                     <li className="text-white cursor-pointer font-poppins" onClick={() => setIsOpen(false)}>Contact</li>
