@@ -1,21 +1,17 @@
 import React from "react";
 import '../App.css'
-import me from '../static/me.jpg'
 
 export default function About() {
-  return (
-    <div className="h-screen container mx-auto text-black font-poppins flex items-center justify-center pt-16">
-        <div className="container mx-auto flex flex-col md:flex-row items-center space-y-10 md:space-y-0 p-40">
-            <div className="flex flex-col w-full justify-center items-start pt-12 pb-24 px-6 bg-white rounded-lg shadow-md p-6 md:mr-10">
-                <h1 className="font-headings text-3xl mb-2">Hello!</h1>
-                <p className="mb-8 text-lg">
-                    My name is Taher, but you can call me your next developer ;)
+    return (
+        <div className="max-w-5xl h-64 font-poppins mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
+            <div className="-mx-3 md:flex mb-6">
+            <div className="md:w-full px-3">
+                <h2 className="text-2xl mb-2 font-semibold text-center">About Me</h2>
+                <p className="text-gray-700 text-base">
+                I'm just a regular guy!
                 </p>
             </div>
-            <div className="w-full lg:w-1/2 lg:py-6 text-center">
-                <img className="rounded-full shadow-xl w-full mx-auto" src={me} alt="Taher" />
             </div>
         </div>
-    </div>
-  );
+    );
 }
