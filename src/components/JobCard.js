@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobCard = ({job}) => {
+export default function JobCard() {
     return (
         <div className="w-64 mx-auto bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:rotate-12 cursor-pointer">
             <div className="relative pb-48">
@@ -17,5 +17,3 @@ const JobCard = ({job}) => {
         </div>
     );
 };
-
-export default JobCard;
