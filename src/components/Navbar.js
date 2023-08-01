@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 flex items-center justify-between p-6 bg-gray-900 z-10">
         <div className="text-white text-xl font-poppins">
-            <h1 className="text-4xl flicker-effect">Ahmad Altaher Alfayad</h1>
+            <h1 className="text-4xl">Taher Alfayad</h1>
         </div>
         <div className="relative">
             <div className="lg:hidden">

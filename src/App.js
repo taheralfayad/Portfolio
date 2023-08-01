@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className="pt-14">
+      <div className="py-20">
             <Greeting/>
             <About/>
             <Experience/>

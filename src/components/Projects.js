@@ -1,12 +1,14 @@
 import React from 'react';
 import Project from './Project'
-import rexsite from '../static/rexsite.png'
+import rexsiteVid from '../static/rexsite.webm'
+import slackOverflowVid from '../static/slackOverflow.webm'
+import rexsitePic from '../static/rexsite.png'
 
 export default function Projects() {
   const projects = [
-    { id: 1, title: 'Rexsite', description: 'This was my first ever software project. I volunteered to create ', year: '2023', image: rexsite },
-    { id: 2, title: 'SlackOverflow', description: 'Description for project 2', year: '2022', image: rexsite },
-    { id: 3, title: 'Scribe.py', description: 'Description for project 3', year: '2021', image: rexsite },
+    { id: 1, title: 'Rexsite', description: 'This was my first ever software project. I volunteered to create ', year: '2023', video: rexsiteVid, image: rexsitePic, link: "https://github.com/taheralfayad/tennis-rez" },
+    { id: 2, title: 'Slack Overflow', description: 'Description for project 2', year: '2022', video: slackOverflowVid },
+    { id: 3, title: 'Scribe.py', description: 'Description for project 3', year: '2021', video: rexsiteVid },
   ];
 
   return(
