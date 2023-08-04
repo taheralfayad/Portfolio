@@ -34,7 +34,7 @@ const Project = ({ project }) => {
             <video 
               src={project.video}
               alt={project.title}
-              className="rounded-lg mb-4 w-full h-full object-cover" // removed "hidden md:block"
+              className="rounded-lg mb-4 w-full h-full object-cover hidden md:block"
               autoPlay
               loop
               muted
