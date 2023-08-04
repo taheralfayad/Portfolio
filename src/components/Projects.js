@@ -5,8 +5,13 @@ import slackOverflowVid from '../static/slackOverflow.webm'
 import rexsitePic from '../static/rexsite.png'
 
 export default function Projects() {
+  let rexsiteDesc = "This was my first ever website and forray into software development. I volunteered to create a tennis " + 
+                    "reservation website for my previous job at the City of Maitland. The modus operandi at the office was " +
+                    "to have customers call in to make their reservations with the attendant. I identified that to be a painpoint " +
+                    'with all of the customers and thought to myself, "well, how hard can it be to change this?"'
+  let slackOverflowDesc = ""
   const projects = [
-    { id: 1, title: 'Rexsite', description: 'This was my first ever software project. I volunteered to create ', year: '2023', video: rexsiteVid, image: rexsitePic, link: "https://github.com/taheralfayad/tennis-rez" },
+    { id: 1, title: 'Rexsite', description: rexsiteDesc, year: '2023', video: rexsiteVid, image: rexsitePic, link: "https://github.com/taheralfayad/tennis-rez" },
     { id: 2, title: 'Slack Overflow', description: 'Description for project 2', year: '2022', video: slackOverflowVid },
     { id: 3, title: 'Scribe.py', description: 'Description for project 3', year: '2021', video: rexsiteVid },
   ];
