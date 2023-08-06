@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="py-20">
-            <div className="py-10">
+            <div className="pt-10 pb-4">
             <Greeting/>
             </div>
             <About/>

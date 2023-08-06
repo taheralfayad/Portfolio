@@ -1,7 +1,7 @@
  import React from 'react';
 import Project from './Project'
-import rexsiteVid from '../static/rexsite.webm'
-import slackOverflowVid from '../static/slackOverflow.webm'
+import rexsiteVid from '../static/rexsite.mp4'
+import slackOverflowVid from '../static/slackOverflow.mp4'
 import scribeVid from '../static/scribe.mp4'
 
 export default function Projects() {
@@ -27,10 +27,10 @@ export default function Projects() {
   ];
 
   return(
-    <div className="p-8 font-poppins">
-      <h1 className="text-4xl font-bold mb-4 text-center">Projects</h1>
-      <div className="relative m-8">
-        <div className="border-r-2 border-slate-400  absolute h-full top-0" style={{ left: '15px' }}></div>
+    <div className="p-0 sm:p-8 font-poppins">
+      <h1 className="text-4xl font-bold mb-4 text-center p-8 sm:p-0 sm:pb-8">Projects</h1>
+      <div className="relative">
+        <div className="object-cover hidden md:block border-r-2 border-slate-400  absolute h-full top-0" style={{ left: '15px' }}></div>
         {projects.map((project) => (
           <Project key={project.id} project={project} />
         ))}

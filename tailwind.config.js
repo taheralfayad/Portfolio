@@ -9,9 +9,9 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif']
       },
       backgroundImage: theme => ({
-        'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
         'gradient-linear': 'linear-gradient(180deg, var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(var(--tw-gradient-stops))',
+        'gradient-radial': 'radial-gradient(ellipse at center, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%)'
       }),
       colors: {
         'soft-pink': '#FFB6C1',
