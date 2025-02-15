@@ -10,7 +10,7 @@ export default function Greeting() {
             <div className="flex flex-col w-full justify-center items-start pt-12 pb-24 px-6 bg-white rounded-lg shadow-md p-6 md:mr-10">
                 <h1 className="font-headings text-3xl mb-2">Hello!</h1>
                 <p className="mb-8 text-lg">
-                    My name is Taher, but you can call me your next developer ;)
+                    Taher's the name, development's my game.
                 </p>
             </div>
             <div className="w-full lg:w-1/2 lg:py-6 text-center">
